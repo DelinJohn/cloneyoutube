@@ -1,0 +1,166 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+  border-bottom-color: rgb(204, 204, 204);
+  padding-bottom: 20px;
+}
+.left {
+  flex: 1;
+  justify-content: start;
+  display: flex;
+  align-items: center;
+}
+.harmburger {
+  height: 24px;
+  margin-left: 20px;
+}
+.youtubeicon {
+  height: 25px;
+  margin-left: 10px;
+}
+.middle {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  height: 36px;
+  flex: 1;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: 17px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.searchbar::placeholder {
+  font-size: 17px;
+  color: rgb(149, 141, 141);
+}
+.searchbutton {
+  height: 40px;
+  width: 60px;
+  margin-left: -1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+
+}
+.searchicon {
+  height: 25px;
+}
+.voicebutton {
+  height: 35px;
+  width: 35px;
+  margin: 0;
+  border: 0;
+  border-radius: 35px;
+  margin-left: 5px;
+
+}
+.right {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: end;
+
+}
+.loginpic {
+  height: 30px;
+  margin-right: 20px;
+
+}
+.appsicon,
+.uploadicon {
+
+  height: 25px;
+  padding-right: 20px;
+
+}
+.bellicon {
+  height: 25px;
+  margin-right: 20px;
+}
+.bellicondiv {
+  position: relative;
+}
+.bellnotification {
+  position: absolute;
+  font-size: 12px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  top: 0;
+  right: 20px;
+}
+.choice {
+  padding: 0;
+  position:sticky;
+  top: 50px;
+  z-index: 2;
+  margin-bottom: 40px;
+  margin-top: -25px;
+}
+
+.choice-subdiv {
+  
+  display: flex;
+  overflow-x: scroll;
+  background-color: white;
+  padding-top: 20px;
+  margin-left: -4px;
+}
+
+.choice-buttons-all,
+.choice-buttons {
+  margin-left: 10px;
+  padding: 10px;
+  text-wrap: nowrap;
+  border: 0;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.choice-buttons-all {
+  background-color: black;
+  color: white;
+}
+.choice-buttons-all:active {
+  background-color: white;
+  color: black;
+}
+.choice-buttons:hover {
+  cursor: pointer;
+  border: 0;
+}
+.choice-buttons:active {
+  color: white;
+  background-color: black;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
